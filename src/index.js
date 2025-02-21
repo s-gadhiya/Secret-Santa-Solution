@@ -24,8 +24,8 @@ const SecretSanta = require('./secretSanta');
 	const previousSantaList = previousSantaData.map((employee) => ({
 		name: employee.Employee_Name,
 		email: employee.Employee_EmailID,
-		santaEmail: employee.Secret_Child_Name,
-		santaName: employee.Secret_Child_EmailID,
+		santaEmail: employee.Secret_Child_EmailID,
+		santaName: employee.Secret_Child_Name,
 	}));
 
 	// Creating the Secret Santa Solutions
