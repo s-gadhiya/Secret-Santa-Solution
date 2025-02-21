@@ -1,4 +1,4 @@
-# Secret Santa Assignment Solution
+# Secret Santa Solution
 
 This project implements a Secret Santa assignment system using a backtracking to find valid assignments while respecting previous year's constraints.
 
