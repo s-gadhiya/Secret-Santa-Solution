@@ -22,6 +22,7 @@ The solution uses a backtracking to:
 ## Project Structure
 
 - `input/` - Contains input CSV files
+  - `test/` - Contains test input sample data files
   - `employees.csv` - List of current employees
   - `previousSanta.csv` - Previous year's Secret Santa assignments
 - `output/` - Generated Secret Santa assignments
@@ -82,3 +83,7 @@ Employee_Name,Employee_EmailID,Secret_Child_Name,Secret_Child_EmailID
 Hamish Murray,hamish.murray@acme.com,Layla Graham,layla.graham@acme.com
 Layla Graham,layla.graham@acme.com,Hamish Murray,hamish.murray@acme.com
 ```
+
+## Test Input Files
+
+The `input/test` directory contains additional sample data files that demonstrate various scenarios and edge cases:
